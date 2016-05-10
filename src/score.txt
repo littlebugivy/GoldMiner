@@ -1,0 +1,5 @@
+Lin:   2927-   10
+Jack:   1900-   8
+Tom:   1345-   6
+Jerry:   200-   2
+Unknown:   0-   1

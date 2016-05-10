@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Shared">
+      <UniqueIdentifier>{4e4a6a07-d337-42ef-975e-413637bbb864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Shared">
+      <UniqueIdentifier>{82649680-6f01-4f4b-9016-33d2f9930b72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Demos">
+      <UniqueIdentifier>{4af3086a-f0ad-4421-8647-84b711bdf81f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Demos">
+      <UniqueIdentifier>{43825ca5-b5e1-402d-a57a-be1b7f41d1ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GoldenMan">
+      <UniqueIdentifier>{31d979dc-b9ca-42a6-9a79-ce4cdd721257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Psyml5">
+      <UniqueIdentifier>{55ebf7bb-bb41-4f03-817a-e2fb7ac0be35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GoldenMan">
+      <UniqueIdentifier>{77c655ba-a1d0-46ff-b143-d17b483c9dba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Psyml5">
+      <UniqueIdentifier>{c1319ac5-e632-4820-aa20-187fe9a67b63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseEngine.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayableObject.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="JPGImage.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementPosition.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="templates.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="TileManager.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="BouncingBall.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="BouncingBallMain.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo2Main.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo2Object.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo2TileManager.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo3Main.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo3Object.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo3ObjectFinished.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo3TileManager.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo4Main.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo4Object.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo4TileManager.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="Demo1Main.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleDemo.h">
+      <Filter>Header Files\Demos</Filter>
+    </ClInclude>
+    <ClInclude Include="GoldenManEngine.h">
+      <Filter>Header Files\GoldenMan</Filter>
+    </ClInclude>
+    <ClInclude Include="Psyml5Engine.h">
+      <Filter>Header Files\Psyml5</Filter>
+    </ClInclude>
+    <ClInclude Include="Psyml5Object1.h">
+      <Filter>Header Files\Psyml5</Filter>
+    </ClInclude>
+    <ClInclude Include="Psyml5Object2.h">
+      <Filter>Header Files\Psyml5</Filter>
+    </ClInclude>
+    <ClInclude Include="Psyml5TileManager.h">
+      <Filter>Header Files\Psyml5</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoAMain.h">
+      <Filter>Header Files\Psyml5</Filter>
+    </ClInclude>
+    <ClInclude Include="DemoBObject.h">
+      <Filter>Header Files\Psyml5</Filter>
+    </ClInclude>
+    <ClInclude Include="GoldObject.h">
+      <Filter>Header Files\GoldenMan</Filter>
+    </ClInclude>
+    <ClInclude Include="HookObject.h">
+      <Filter>Header Files\GoldenMan</Filter>
+    </ClInclude>
+    <ClInclude Include="RunningPig.h">
+      <Filter>Header Files\GoldenMan</Filter>
+    </ClInclude>
+    <ClInclude Include="CatchableObject.h">
+      <Filter>Header Files\GoldenMan</Filter>
+    </ClInclude>
+    <ClInclude Include="StableObject.h">
+      <Filter>Header Files\GoldenMan</Filter>
+    </ClInclude>
+    <ClInclude Include="DiamondObject.h">
+      <Filter>Header Files\GoldenMan</Filter>
+    </ClInclude>
+    <ClInclude Include="StoneObject.h">
+      <Filter>Header Files\GoldenMan</Filter>
+    </ClInclude>
+    <ClInclude Include="RunningPigDiamond.h">
+      <Filter>Header Files\GoldenMan</Filter>
+    </ClInclude>
+    <ClInclude Include="BombTileManager.h">
+      <Filter>Header Files\GoldenMan</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="mainfunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseEngine.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayableObject.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="JPGImage.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="TileManager.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="BouncingBall.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="BouncingBallMain.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo2Main.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo2Object.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo2TileManager.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo3Main.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo3Object.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo3ObjectFinished.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo3TileManager.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo4Main.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo4Object.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo4TileManager.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="Demo1Main.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleDemo.cpp">
+      <Filter>Source Files\Demos</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldenManEngine.cpp">
+      <Filter>Source Files\GoldenMan</Filter>
+    </ClCompile>
+    <ClCompile Include="Psyml5Engine.cpp">
+      <Filter>Source Files\Psyml5</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoAMain.cpp">
+      <Filter>Source Files\Psyml5</Filter>
+    </ClCompile>
+    <ClCompile Include="DemoBObject.cpp">
+      <Filter>Source Files\Psyml5</Filter>
+    </ClCompile>
+    <ClCompile Include="Psyml5Object1.cpp">
+      <Filter>Source Files\Psyml5</Filter>
+    </ClCompile>
+    <ClCompile Include="Psyml5Object2.cpp">
+      <Filter>Source Files\Psyml5</Filter>
+    </ClCompile>
+    <ClCompile Include="Psyml5TileManager.cpp">
+      <Filter>Source Files\Psyml5</Filter>
+    </ClCompile>
+    <ClCompile Include="GoldObject.cpp">
+      <Filter>Source Files\GoldenMan</Filter>
+    </ClCompile>
+    <ClCompile Include="HookObject.cpp">
+      <Filter>Source Files\GoldenMan</Filter>
+    </ClCompile>
+    <ClCompile Include="RunningPig.cpp">
+      <Filter>Source Files\GoldenMan</Filter>
+    </ClCompile>
+    <ClCompile Include="CatchableObject.cpp">
+      <Filter>Source Files\GoldenMan</Filter>
+    </ClCompile>
+    <ClCompile Include="StableObject.cpp">
+      <Filter>Source Files\GoldenMan</Filter>
+    </ClCompile>
+    <ClCompile Include="DiamondObject.cpp">
+      <Filter>Source Files\GoldenMan</Filter>
+    </ClCompile>
+    <ClCompile Include="StoneObject.cpp">
+      <Filter>Source Files\GoldenMan</Filter>
+    </ClCompile>
+    <ClCompile Include="RunningPigDiamond.cpp">
+      <Filter>Source Files\GoldenMan</Filter>
+    </ClCompile>
+    <ClCompile Include="BombTileManager.cpp">
+      <Filter>Source Files\GoldenMan</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
